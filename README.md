@@ -1,2 +1,2 @@
 # Data-Science-Resources
-Online resources for data science eduction
+Online resources for data science education.
