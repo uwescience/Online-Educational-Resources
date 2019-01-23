@@ -1,3 +1,5 @@
+![](img/eScience_Logo_HR.png)
+
 # Online Eductional Resources for eScience
 This structures eScience educational materials by topic. If you know of additional materials or topics that should be included, please submit an issue to this repo.
 
@@ -5,6 +7,7 @@ This structures eScience educational materials by topic. If you know of addition
 - [Software Carpentry Lessons](https://software-carpentry.org/lessons/)
 - [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook)
 - [Software Engineering for Data Scientists](http://uwseds.github.io/syllabus.html)
+- [Still Magic for Reearch Projects](https://merely-useful.github.io/still-magic/en/)
 
 ## Introduction to Python
 ### Prerequisites: None
