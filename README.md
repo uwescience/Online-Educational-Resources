@@ -82,12 +82,12 @@ There are two versions of Python in common use: Python 2 and Python 3. There are
 - [Cloud Computing](https://cloudmaven.github.io/documentation/index.html)
 
 ## SQL Basics
-- [Introduction to Data Management] (https://courses.cs.washington.edu/courses/cse344/)
-- [Introduction to Database Systems for non-computer scientists] (https://courses.cs.washington.edu/courses/cse414/)
+- [Introduction to Data Management](https://courses.cs.washington.edu/courses/cse344/)
+- [Introduction to Database Systems for non-computer scientists](https://courses.cs.washington.edu/courses/cse414/)
 
 ## SQL Servers
-- [Database Systems Internals] (http://courses.cs.washington.edu/courses/cse444/)
-- [Scalable Data Systems and Algorihms] (https://courses.cs.washington.edu/courses/csed516/)
+- [Database Systems Internals](http://courses.cs.washington.edu/courses/cse444/)
+- [Scalable Data Systems and Algorihms](https://courses.cs.washington.edu/courses/csed516/)
 
 ## Introduction to JavaScript
 
