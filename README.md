@@ -56,6 +56,11 @@ There are two versions of Python in common use: Python 2 and Python 3. There are
 - Viewing the changes made since the last commit
 - Git workflow
 
+### Online resources
+
+- [Code Academy Learning git](https://www.codecademy.com/learn/learn-git)
+- [git Project Resources for Learning git](https://try.github.io/)
+
 ## git for Intermediate Users
 
 ### Prerequisites
