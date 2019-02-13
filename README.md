@@ -8,8 +8,9 @@ This structures eScience educational materials by topic. If you know of addition
 - [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook)
 - [Software Engineering for Data Scientists](http://uwseds.github.io/syllabus.html)
 - [Still Magic for Reearch Projects](https://merely-useful.github.io/still-magic/en/)
+- CSE 583: Software Development for Data Scientists ([syllabus with links to videos and slides](http://uwseds.github.io/syllabus.html))
 
-## Introduction to Python
+## Python for Beginners
 ### Prerequisites: None
 ### Learning objectives
 - Create and elementary types and lists
@@ -24,8 +25,12 @@ There are two versions of Python in common use: Python 2 and Python 3. There are
 - [Hitchhiker's Guide to Python - Beginner’s tutorial (Python 3)](https://thepythonguru.com/)
 - [Code academy (Python 2)](https://www.codecademy.com/learn/learn-python)
 - [Python Seminar 2015](http://uwescience.github.io/python-seminar-2015/seminar/) 
+- Testing. See [CSE 583 syllabus](http://uwseds.github.io/syllabus.html)
+- Debugging and exceptions. See [CSE 583 syllabus](http://uwseds.github.io/syllabus.html)
+- Design.  See [CSE 583 syllabus](http://uwseds.github.io/syllabus.html)
+- Creating reusable packages. See [CSE 583 syllabus](http://uwseds.github.io/syllabus.html)
 
-## Introduction to R
+## R for Beginners
 ### Prerequisites: None
 ### Learning objectives
 - Create and elementary types and lists
@@ -38,7 +43,7 @@ There are two versions of Python in common use: Python 2 and Python 3. There are
 ### Online resources
 - [Ryan Kelly’s R Course](https://github.com/invertdna/Rcourse_SMEA_Autumn2018)
 
-## Basic git <a name="Basic%git" markdown="1"></a>
+## git for Beginners <a name="Basic%git" markdown="1"></a>
 ### Prerequisites: None
 ### Learning objectives
 - Git initialization
@@ -51,7 +56,7 @@ There are two versions of Python in common use: Python 2 and Python 3. There are
 - Viewing the changes made since the last commit
 - Git workflow
 
-## Intermediate git
+## git for Intermediate Users
 
 ### Prerequisites
 - [Basic git](#Basic%git)
@@ -64,21 +69,11 @@ There are two versions of Python in common use: Python 2 and Python 3. There are
 ### Online Resources
 - [Github Intermediate](https://github.com/uwescience/git-intermediate/blob/master/instructor-notes.md)
 
-## Python Testing
-
-## Python Exceptions & Debugging
-
-## Software Design
-
 ## Team Processes
-
-## Creating a Reusable Software Package
+- See [CSE 583 syllabus](http://uwseds.github.io/syllabus.html)
 
 ## Introduction to Cloud Computing
 
-### Learning Objectives
-
-### Online Resources
 - [Cloud Computing](https://cloudmaven.github.io/documentation/index.html)
 
 ## SQL Basics
@@ -90,12 +85,15 @@ There are two versions of Python in common use: Python 2 and Python 3. There are
 - [Scalable Data Systems and Algorihms](https://courses.cs.washington.edu/courses/csed516/)
 
 ## Introduction to JavaScript
+- [w3schools JavaScript Introduct](https://www.w3schools.com/js/js_intro.asp)
+- [CodeAcademy Introduction to JavaScript](https://www.codecademy.com/learn/introduction-to-javascript)
+- [Javascript.info Introduction to JavaScript](https://javascript.info/intro)
 
 ## Programming Style and Documentation
+- See [CSE 583 syllabus](http://uwseds.github.io/syllabus.html)
 
 ## High Performance Computing (HPC)
 
-### Online Resources
 - HPC for python with Dask
 
 ## Geographical Information Systems
@@ -127,13 +125,24 @@ There are two versions of Python in common use: Python 2 and Python 3. There are
   - [Reproducible Research](presentations/Reproducibility_ghw2017.pdf)
     - [YouTube video](https://www.youtube.com/watch?v=etLUdPSbu08&list=PLA6PlfxWZPLQsyNC3vVISBPi31QWw-bDl&index=7)
 
-## Machine Learning Basics
+## Machine Learning
 
-## Learning Objectives
+- [Kaggle Machine Learning for Beginners](https://www.kaggle.com/kanncaa1/machine-learning-tutorial-for-beginners)
+
+- [GeeksforGeeks Introduction to Machine Learning](https://www.geeksforgeeks.org/machine-learning/)
+
+- [Coursera Machine Learning](https://www.coursera.org/learn/machine-learning). A bit more advanced.
 
 ## UI Design
 
+- [UI Basics in Flash Cards](https://u.cs.biu.ac.il/~ariel/download/mm664/resources/interfaces_technologies/UX%20%96%20UI%20introduction.pdf)
+- [The Essential Guide to User Interface Design](http://ps.fragnel.edu.in/~dipalis/prgdwnl/eguid.pdf)
+
 ## Data Structures
+
+- [Introduction to Data Structures and Algorithms](https://www.tutorialspoint.com/data_structures_algorithms/data_structures_algorithms_tutorial.pdf)
+- [Data Structures and Algorithms in slides](https://www.cs.princeton.edu/courses/archive/spr11/cos217/lectures/08DsAlg.pdf)
+- [Basics of Data Structures in Python](https://users-cs.au.dk/chili/PBI/Notes/ch06.pdf)
 
 ## Basics of Building Empirical Models
 
