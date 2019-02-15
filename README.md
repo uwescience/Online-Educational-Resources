@@ -7,13 +7,13 @@ This structures eScience educational materials by topic. If you know of addition
 - [Software Carpentry Lessons](https://software-carpentry.org/lessons/)
 - [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook)
 - [Software Engineering for Data Scientists](http://uwseds.github.io/syllabus.html)
-- [Still Magic for Reearch Projects](https://merely-useful.github.io/still-magic/en/)
+- [Still Magic for Research Projects](https://merely-useful.github.io/still-magic/en/)
 - CSE 583: Software Development for Data Scientists ([syllabus with links to videos and slides](http://uwseds.github.io/syllabus.html))
 
 ## Python for Beginners
 ### Prerequisites: None
 ### Learning objectives
-- Create and elementary types and lists
+- Create and manipulate elementary types and lists
 - Read and write CSV and Excel files
 - Create and manipulate DataFrames
 - Basics of flow control (if, for)
@@ -33,7 +33,7 @@ There are two versions of Python in common use: Python 2 and Python 3. There are
 ## R for Beginners
 ### Prerequisites: None
 ### Learning objectives
-- Create and elementary types and lists
+- Create and manipulate elementary types and lists
 - Read and write CSV and Excel files
 - Create and manipulate DataFrames
 - Basics of flow control (if, for)
@@ -50,8 +50,8 @@ There are two versions of Python in common use: Python 2 and Python 3. There are
 - Creating a local repository
 - Creating a remote repository
 - Cloning a local repository
-- add, remove files
-- committing and pushing a change
+- Add, remove files
+- Committing and pushing a change
 - Obtaining a previous version of a file
 - Viewing the changes made since the last commit
 - Git workflow
@@ -159,17 +159,17 @@ There are two versions of Python in common use: Python 2 and Python 3. There are
 - Model evaluation: metrics, cross validation
 - Parameter estimation
 
-## Neuro Data Scinece
+## Neuro Data Science
 
 ### Online Resources
-- [Neurohackweek Tutorials](https://neurohackweek.github.io/nhw2016/)
-  - [Cython](https://neurohackweek.github.io/cython-tutorial/)
+- [Neurohackweek Tutorials](https://neurohackademy.org/course_type/lectures/)
+  - [Cython, Dask and Numba](https://neurohackademy.github.io/high-performance-python)
   - [Advanced Unix and Make I](https://neurohackweek.github.io/advancedunix/01-first-part/)
   - [Visualization in Python](https://github.com/neurohackweek/visualization-in-python/blob/master/visualization-in-python.ipynb)
   - [Software Testing for Scientists](https://neurohackweek.github.io/software-testing-for-scientists/)
   - [Docker for Scientists](https://neurohackweek.github.io/docker-for-scientists/)
   - [Image Processing](https://neurohackweek.github.io/image-processing/)
-  - [Videos from Neurohackweek 2017](https://www.youtube.com/playlist?list=PLA6PlfxWZPLTLJ2qTN9enG0tkizpmwWaq)
+  - [Videos from Neurohackweek/NeuroHackademy](https://www.youtube.com/playlist?list=PLA6PlfxWZPLTLJ2qTN9enG0tkizpmwWaq)
 
 ## Image Processing
 
