@@ -1,7 +1,9 @@
 ![](img/eScience_Logo_HR.png)
 
 # Online Eductional Resources for eScience
-This structures eScience educational materials by topic. If you know of additional materials or topics that should be included, please submit an issue to this repo.
+The following course structure describes eScience educational materials by topic. If you know about additional materials or topics that should be included, please submit an issue to this repo.
+
+Keep Learning! Keep Growing!
 
 ## General Resources
 - [Software Carpentry Lessons](https://software-carpentry.org/lessons/)
