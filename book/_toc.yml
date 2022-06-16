@@ -1,0 +1,24 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: overview
+parts:
+  - caption: By tutorial subject
+    chapters:
+      - file: foundational
+      - file: datasci
+      - file: sweng
+      - file: cloud
+      - file: pedagogy
+      - url: https://guides.lib.uw.edu/c.php?g=733281&p=5238630
+        title: Scientific Reproducability
+  - caption: By audience domain
+    chapters:
+      - url: https://TODO
+        title: For geoscientists
+      - url: https://TODO
+        title: For neuroscientists
+      - url: https://TODO
+        title: For social scientists
+

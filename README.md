@@ -9,6 +9,7 @@ This structures eScience educational materials by topic. If you know of addition
 - [Software Engineering for Data Scientists](http://uwseds.github.io/syllabus.html)
 - [Still Magic for Research Projects](https://merely-useful.github.io/still-magic/en/)
 - CSE 583: Software Development for Data Scientists ([syllabus with links to videos and slides](http://uwseds.github.io/syllabus.html))
+  - [Self-guided curriculum](http://uwseds.github.io/selfguided)
 
 ## Python for Beginners
 ### Prerequisites: None
