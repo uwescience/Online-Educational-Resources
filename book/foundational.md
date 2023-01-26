@@ -36,10 +36,23 @@
   - [Scalable Data Systems and Algorihms](https://courses.cs.washington.edu/courses/csed516/) {{Advanced}}
 
 ## FAQ
-  - What do I need to learn? In what order?
-  - Which programming language should I use?
-  - Which version of Python should I use?
-    - 3
+  - **What do I need to learn? In what order?**
+
+    A good place to start is with UNIX terminals, since this likely underlies almost all computational work you will do in your career. After this there is more flexibility: it can help to have a project to motivate which digital tools you need to use, and once you have identified this you can learn the programming languages needed to use those tools. In parallel, you can learn how to use source control systems like Git to keep track of your work and share it with others.
+
+  - **Which programming language should I use?**
+
+    With all else being equal, you should learn the programming language and tools that colleagues in your field seem to be using. Determining what these are may be nontrivial, but figuring this out is both worthwhile and a useful research skill in iteself!
+
+    If there doesn't seem to be consensus within your scientific community, it can help to dabble in the documentation and web forums for various language communities and see which you feel more comfortable in. Both Python and R have large and active scientific userbases, while languages like JavaScript may have a large userbase but relatively little overlap with the problems faced by scientific researchers.
+
+  - **How do I know what questions I should even be asking?**
+
+    Find a mentor. Make an appointment with a data scientist at the eScience Institute's [office hours](https://escience.washington.edu/office-hours/).
+  
+  - **Which version of Python should I use?**
+
+    [3](https://www.python.org/doc/sunset-python-2/).
 
 
 

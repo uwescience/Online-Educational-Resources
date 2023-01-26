@@ -34,7 +34,7 @@ parse:
     Intermediate: <img class="level-shield level-intermediate" src="https://img.shields.io/badge/-Intermediate-DC267F" alt="Intermediate">
     Advanced: <img class="level-shield level-advanced" src="https://img.shields.io/badge/-Advanced-FFB000" alt="Advanced">
     FilterBox: |
-      <div>Filter by experience level:
+      <div style="border: #68b1ff 1px solid; border-radius: 0.5em; padding: 0.5em; display: inline;">Filter by experience level:
       <a href="#" onclick="showOnly('level-beginner')"><img src="https://img.shields.io/badge/-Beginner-648FFF" alt="Beginner"></a>
       <a href="#" onclick="showOnly('level-intermediate')"><img src="https://img.shields.io/badge/-Intermediate-DC267F" alt="Intermediate"></a>
       <a href="#" onclick="showOnly('level-advanced')"><img src="https://img.shields.io/badge/-Advanced-FFB000" alt="Advanced"></a>
