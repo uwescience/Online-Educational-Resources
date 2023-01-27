@@ -1,0 +1,885 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Software Engineering &#8212; The eScience Institute: Online Learning Resources</title>
+    
+  <link href="_static/css/theme.css" rel="stylesheet">
+  <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.be7d3bbb2ef33a8344ce.js">
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="shortcut icon" href="_static/logo_short.png"/>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Cloud Computing" href="cloud.html" />
+    <link rel="prev" title="Data Science" href="datasci.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="_static/logo_short.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">The eScience Institute: Online Learning Resources</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="overview.html">
+   Welcome
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  By tutorial subject
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="datasci.html">
+   Data Science
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Software Engineering
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="cloud.html">
+   Cloud Computing
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="pedagogy.html">
+   Teaching and Pedagogy
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference external" href="https://guides.lib.uw.edu/c.php?g=733281&amp;p=5238630">
+   Scientific Reproducability
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  By audience domain
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference external" href="https://TODO">
+   For geoscientists
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference external" href="https://TODO">
+   For neuroscientists
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference external" href="https://TODO">
+   For social scientists
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/software-eng.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/uwescience/Online-Educational-Resources"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/uwescience/Online-Educational-Resources/issues/new?title=Issue%20on%20page%20%2Fsoftware-eng.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#general-resources">
+   General Resources
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#python-for-beginners">
+   Python for Beginners
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#prerequisites-none">
+     Prerequisites: None
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#learning-objectives">
+     Learning objectives
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#online-resources">
+     Online Resources
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#r-for-beginners">
+   R for Beginners
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id1">
+     Prerequisites: None
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id2">
+     Learning objectives
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id3">
+     Online resources
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#git-for-beginners-a-name-basic-git-markdown-1-a">
+   git for Beginners
+   <a markdown="1" name="Basic%git">
+   </a>
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id4">
+     Prerequisites: None
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id5">
+     Learning objectives
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id6">
+     Online resources
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#git-for-intermediate-users">
+   git for Intermediate Users
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#prerequisites">
+     Prerequisites
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id7">
+     Learning Objectives
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id8">
+     Online Resources
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#team-processes">
+   Team Processes
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#introduction-to-cloud-computing">
+   Introduction to Cloud Computing
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#sql-basics">
+   SQL Basics
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#sql-servers">
+   SQL Servers
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#introduction-to-javascript">
+   Introduction to JavaScript
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#programming-style-and-documentation">
+   Programming Style and Documentation
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#high-performance-computing-hpc">
+   High Performance Computing (HPC)
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#geographical-information-systems">
+   Geographical Information Systems
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id9">
+     Learning Objectives
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id10">
+     Online Resources
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#ui-design">
+   UI Design
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#data-structures">
+   Data Structures
+  </a>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Software Engineering</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#general-resources">
+   General Resources
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#python-for-beginners">
+   Python for Beginners
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#prerequisites-none">
+     Prerequisites: None
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#learning-objectives">
+     Learning objectives
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#online-resources">
+     Online Resources
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#r-for-beginners">
+   R for Beginners
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id1">
+     Prerequisites: None
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id2">
+     Learning objectives
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id3">
+     Online resources
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#git-for-beginners-a-name-basic-git-markdown-1-a">
+   git for Beginners
+   <a markdown="1" name="Basic%git">
+   </a>
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id4">
+     Prerequisites: None
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id5">
+     Learning objectives
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id6">
+     Online resources
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#git-for-intermediate-users">
+   git for Intermediate Users
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#prerequisites">
+     Prerequisites
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id7">
+     Learning Objectives
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id8">
+     Online Resources
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#team-processes">
+   Team Processes
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#introduction-to-cloud-computing">
+   Introduction to Cloud Computing
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#sql-basics">
+   SQL Basics
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#sql-servers">
+   SQL Servers
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#introduction-to-javascript">
+   Introduction to JavaScript
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#programming-style-and-documentation">
+   Programming Style and Documentation
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#high-performance-computing-hpc">
+   High Performance Computing (HPC)
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#geographical-information-systems">
+   Geographical Information Systems
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id9">
+     Learning Objectives
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id10">
+     Online Resources
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#ui-design">
+   UI Design
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#data-structures">
+   Data Structures
+  </a>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            
+              <div>
+                
+  <section class="tex2jax_ignore mathjax_ignore" id="software-engineering">
+<h1>Software Engineering<a class="headerlink" href="#software-engineering" title="Permalink to this headline">¶</a></h1>
+<section id="general-resources">
+<h2>General Resources<a class="headerlink" href="#general-resources" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://software-carpentry.org/lessons/">Software Carpentry Lessons</a></p></li>
+<li><p><a class="reference external" href="https://github.com/jakevdp/PythonDataScienceHandbook">Python Data Science Handbook</a></p></li>
+<li><p><a class="reference external" href="http://uwseds.github.io/syllabus.html">Software Engineering for Data Scientists</a></p></li>
+<li><p><a class="reference external" href="https://merely-useful.github.io/still-magic/en/">Still Magic for Research Projects</a></p></li>
+<li><p>CSE 583: Software Development for Data Scientists (<a class="reference external" href="http://uwseds.github.io/syllabus.html">syllabus with links to videos and slides</a>)</p>
+<ul>
+<li><p><a class="reference external" href="http://uwseds.github.io/selfguided">Self-guided curriculum</a></p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="python-for-beginners">
+<h2>Python for Beginners<a class="headerlink" href="#python-for-beginners" title="Permalink to this headline">¶</a></h2>
+<section id="prerequisites-none">
+<h3>Prerequisites: None<a class="headerlink" href="#prerequisites-none" title="Permalink to this headline">¶</a></h3>
+</section>
+<section id="learning-objectives">
+<h3>Learning objectives<a class="headerlink" href="#learning-objectives" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Create and manipulate elementary types and lists</p></li>
+<li><p>Read and write CSV and Excel files</p></li>
+<li><p>Create and manipulate DataFrames</p></li>
+<li><p>Basics of flow control (if, for)</p></li>
+<li><p>Create functions</p></li>
+<li><p>Organize code into files</p></li>
+</ul>
+</section>
+<section id="online-resources">
+<h3>Online Resources<a class="headerlink" href="#online-resources" title="Permalink to this headline">¶</a></h3>
+<p>There are two versions of Python in common use: Python 2 and Python 3. There are some small differences between them. You likely will use Python 3 more, but don’t hesitate to take advantage of a Python 2 tutorial.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://thepythonguru.com/">Hitchhiker’s Guide to Python - Beginner’s tutorial (Python 3)</a></p></li>
+<li><p><a class="reference external" href="https://www.codecademy.com/learn/learn-python">Code academy (Python 2)</a></p></li>
+<li><p><a class="reference external" href="http://uwescience.github.io/python-seminar-2015/seminar/">Python Seminar 2015</a></p></li>
+<li><p>Testing. See <a class="reference external" href="http://uwseds.github.io/syllabus.html">CSE 583 syllabus</a></p></li>
+<li><p>Debugging and exceptions. See <a class="reference external" href="http://uwseds.github.io/syllabus.html">CSE 583 syllabus</a></p></li>
+<li><p>Design.  See <a class="reference external" href="http://uwseds.github.io/syllabus.html">CSE 583 syllabus</a></p></li>
+<li><p>Creating reusable packages. See <a class="reference external" href="http://uwseds.github.io/syllabus.html">CSE 583 syllabus</a></p></li>
+</ul>
+</section>
+</section>
+<section id="r-for-beginners">
+<h2>R for Beginners<a class="headerlink" href="#r-for-beginners" title="Permalink to this headline">¶</a></h2>
+<section id="id1">
+<h3>Prerequisites: None<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+</section>
+<section id="id2">
+<h3>Learning objectives<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Create and manipulate elementary types and lists</p></li>
+<li><p>Read and write CSV and Excel files</p></li>
+<li><p>Create and manipulate DataFrames</p></li>
+<li><p>Basics of flow control (if, for)</p></li>
+<li><p>Create functions</p></li>
+<li><p>Organize code into files</p></li>
+</ul>
+</section>
+<section id="id3">
+<h3>Online resources<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/invertdna/Rcourse_SMEA_Autumn2018">Ryan Kelly’s R Course</a></p></li>
+</ul>
+</section>
+</section>
+<section id="git-for-beginners-a-name-basic-git-markdown-1-a">
+<h2>git for Beginners <a name="Basic%git" markdown="1"></a><a class="headerlink" href="#git-for-beginners-a-name-basic-git-markdown-1-a" title="Permalink to this headline">¶</a></h2>
+<section id="id4">
+<h3>Prerequisites: None<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+</section>
+<section id="id5">
+<h3>Learning objectives<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Git initialization</p></li>
+<li><p>Creating a local repository</p></li>
+<li><p>Creating a remote repository</p></li>
+<li><p>Cloning a local repository</p></li>
+<li><p>Add, remove files</p></li>
+<li><p>Committing and pushing a change</p></li>
+<li><p>Obtaining a previous version of a file</p></li>
+<li><p>Viewing the changes made since the last commit</p></li>
+<li><p>Git workflow</p></li>
+</ul>
+</section>
+<section id="id6">
+<h3>Online resources<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.codecademy.com/learn/learn-git">Code Academy Learning git</a></p></li>
+<li><p><a class="reference external" href="https://try.github.io/">git Project Resources for Learning git</a></p></li>
+</ul>
+</section>
+</section>
+<section id="git-for-intermediate-users">
+<h2>git for Intermediate Users<a class="headerlink" href="#git-for-intermediate-users" title="Permalink to this headline">¶</a></h2>
+<section id="prerequisites">
+<h3>Prerequisites<a class="headerlink" href="#prerequisites" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="#Basic%git">Basic git</a></p></li>
+</ul>
+</section>
+<section id="id7">
+<h3>Learning Objectives<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Resolving conflicts</p></li>
+<li><p>Managing branches</p></li>
+<li><p>Using issues</p></li>
+</ul>
+</section>
+<section id="id8">
+<h3>Online Resources<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/uwescience/git-intermediate/blob/master/instructor-notes.md">Github Intermediate</a></p></li>
+</ul>
+</section>
+</section>
+<section id="team-processes">
+<h2>Team Processes<a class="headerlink" href="#team-processes" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>See <a class="reference external" href="http://uwseds.github.io/syllabus.html">CSE 583 syllabus</a></p></li>
+</ul>
+</section>
+<section id="introduction-to-cloud-computing">
+<h2>Introduction to Cloud Computing<a class="headerlink" href="#introduction-to-cloud-computing" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://cloudmaven.github.io/documentation/index.html">Cloud Computing</a></p></li>
+</ul>
+</section>
+<section id="sql-basics">
+<h2>SQL Basics<a class="headerlink" href="#sql-basics" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://courses.cs.washington.edu/courses/cse344/">Introduction to Data Management</a></p></li>
+<li><p><a class="reference external" href="https://courses.cs.washington.edu/courses/cse414/">Introduction to Database Systems for non-computer scientists</a></p></li>
+</ul>
+</section>
+<section id="sql-servers">
+<h2>SQL Servers<a class="headerlink" href="#sql-servers" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="http://courses.cs.washington.edu/courses/cse444/">Database Systems Internals</a></p></li>
+<li><p><a class="reference external" href="https://courses.cs.washington.edu/courses/csed516/">Scalable Data Systems and Algorihms</a></p></li>
+</ul>
+</section>
+<section id="introduction-to-javascript">
+<h2>Introduction to JavaScript<a class="headerlink" href="#introduction-to-javascript" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.w3schools.com/js/js_intro.asp">w3schools JavaScript Introduct</a></p></li>
+<li><p><a class="reference external" href="https://www.codecademy.com/learn/introduction-to-javascript">CodeAcademy Introduction to JavaScript</a></p></li>
+<li><p><a class="reference external" href="https://javascript.info/intro">Javascript.info Introduction to JavaScript</a></p></li>
+</ul>
+</section>
+<section id="programming-style-and-documentation">
+<h2>Programming Style and Documentation<a class="headerlink" href="#programming-style-and-documentation" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>See <a class="reference external" href="http://uwseds.github.io/syllabus.html">CSE 583 syllabus</a></p></li>
+</ul>
+</section>
+<section id="high-performance-computing-hpc">
+<h2>High Performance Computing (HPC)<a class="headerlink" href="#high-performance-computing-hpc" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>HPC for python with Dask</p></li>
+</ul>
+</section>
+<section id="geographical-information-systems">
+<h2>Geographical Information Systems<a class="headerlink" href="#geographical-information-systems" title="Permalink to this headline">¶</a></h2>
+<section id="id9">
+<h3>Learning Objectives<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Resolving conflicts</p></li>
+<li><p>Managing branches</p></li>
+<li><p>Using issues</p></li>
+</ul>
+</section>
+<section id="id10">
+<h3>Online Resources<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://uwescience.github.io/SQL-geospatial-tutorial/">Introduction to SQL and Geospatial Data Processing (DSSG)</a></p></li>
+<li><p><a class="reference external" href="https://github.com/geohackweek/tutorial_contents">Geohackweek Tutorials</a></p>
+<ul>
+<li><p><a class="reference external" href="https://geohackweek.github.io/Introductory/">Data Sharing and Collaboration Tools</a></p></li>
+<li><p><a class="reference external" href="https://github.com/geohackweek/ghw2017/wiki/Running-Jupyter-Notebooks-Locally">running Jupyter Notebooks locally</a></p></li>
+<li><p><a class="reference external" href="https://geohackweek.github.io/vector/">Vector Data Processing</a></p>
+<ul>
+<li><p><a class="reference external" href="https://www.youtube.com/watch?v=bY50rFjlz_Q&amp;index=8&amp;list=PLA6PlfxWZPLQsyNC3vVISBPi31QWw-bDl">YouTube video, part 1</a></p></li>
+<li><p><a class="reference external" href="https://www.youtube.com/watch?v=7YYmCvnc6_U&amp;index=9&amp;list=PLA6PlfxWZPLQsyNC3vVISBPi31QWw-bDl">YouTube video, part 2</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://geohackweek.github.io/raster/">Raster Data Processing</a></p></li>
+<li><p><a class="reference external" href="https://geohackweek.github.io/GoogleEarthEngine/">Google Earth Engine</a></p>
+<ul>
+<li><p><a class="reference external" href="https://www.youtube.com/watch?v=iza-tLbo6tE&amp;list=PLA6PlfxWZPLQsyNC3vVISBPi31QWw-bDl&amp;index=6">YouTube video</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/geohackweek/tutorial_contents/tree/master/visualization/notebooks">Visualization</a></p>
+<ul>
+<li><p><a class="reference external" href="https://youtu.be/w6bXlAztl20">YouTube video, part 1</a></p></li>
+<li><p><a class="reference external" href="https://youtu.be/ZZNtVn7-tc8">YouTube video, part 2</a></p></li>
+<li><p><a class="reference external" href="https://youtu.be/mLR86HJ0ZMw">YouTube video, part 3</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/geohackweek/tutorial_contents/blob/master/nDarrays/notebooks/ndarrays_intro.ipynb">Multidimensional Arrays</a></p>
+<ul>
+<li><p><a class="reference external" href="https://youtu.be/I1OLxiVXcxc">YouTube video</a></p></li>
+</ul>
+</li>
+<li><p><span class="xref myst">Cartographic Methods</span></p>
+<ul>
+<li><p><a class="reference external" href="https://www.youtube.com/watch?v=TBM-Xlq4TJA&amp;list=PLA6PlfxWZPLQsyNC3vVISBPi31QWw-bDl&amp;index=5">YouTube video</a></p></li>
+</ul>
+</li>
+<li><p><span class="xref myst">Reproducible Research</span></p>
+<ul>
+<li><p><a class="reference external" href="https://www.youtube.com/watch?v=etLUdPSbu08&amp;list=PLA6PlfxWZPLQsyNC3vVISBPi31QWw-bDl&amp;index=7">YouTube video</a></p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</section>
+</section>
+<section id="ui-design">
+<h2>UI Design<a class="headerlink" href="#ui-design" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://u.cs.biu.ac.il/~ariel/download/mm664/resources/interfaces_technologies/UX%20%96%20UI%20introduction.pdf">UI Basics in Flash Cards</a></p></li>
+<li><p><a class="reference external" href="http://ps.fragnel.edu.in/~dipalis/prgdwnl/eguid.pdf">The Essential Guide to User Interface Design</a></p></li>
+</ul>
+</section>
+<section id="data-structures">
+<h2>Data Structures<a class="headerlink" href="#data-structures" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.tutorialspoint.com/data_structures_algorithms/data_structures_algorithms_tutorial.pdf">Introduction to Data Structures and Algorithms</a></p></li>
+<li><p><a class="reference external" href="https://www.cs.princeton.edu/courses/archive/spr11/cos217/lectures/08DsAlg.pdf">Data Structures and Algorithms in slides</a></p></li>
+<li><p><a class="reference external" href="https://users-cs.au.dk/chili/PBI/Notes/ch06.pdf">Basics of Data Structures in Python</a></p></li>
+</ul>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            
+                <!-- Previous / next buttons -->
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="datasci.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Data Science</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="cloud.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Cloud Computing</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            
+        </div>
+    </div>
+    <footer class="footer">
+  <p>
+    
+      By The eScience Institute<br/>
+    
+        &copy; Copyright 2021.<br/>
+  </p>
+</footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+
+  </body>
+</html>

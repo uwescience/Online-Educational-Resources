@@ -1,0 +1,32 @@
+{"filename": "software-eng.md", "lineno": 65, "status": "unchecked", "code": 0, "uri": "#Basic%git", "info": ""}
+{"filename": "software-eng.md", "lineno": 134, "status": "broken", "code": 0, "uri": "http://ps.fragnel.edu.in/~dipalis/prgdwnl/eguid.pdf", "info": "HTTPConnectionPool(host='ps.fragnel.edu.in', port=80): Max retries exceeded with url: /~dipalis/prgdwnl/eguid.pdf (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f77ed26c460>: Failed to establish a new connection: [Errno -2] Name or service not known'))"}
+{"filename": "software-eng.md", "lineno": 87, "status": "working", "code": 0, "uri": "http://courses.cs.washington.edu/courses/cse444/", "info": ""}
+{"filename": "software-eng.md", "lineno": 25, "status": "working", "code": 0, "uri": "http://uwescience.github.io/python-seminar-2015/seminar/", "info": ""}
+{"filename": "software-eng.md", "lineno": 6, "status": "working", "code": 0, "uri": "http://uwseds.github.io/syllabus.html", "info": ""}
+{"filename": "software-eng.md", "lineno": 83, "status": "working", "code": 0, "uri": "https://courses.cs.washington.edu/courses/cse344/", "info": ""}
+{"filename": "software-eng.md", "lineno": 9, "status": "working", "code": 0, "uri": "http://uwseds.github.io/selfguided", "info": ""}
+{"filename": "software-eng.md", "lineno": 88, "status": "working", "code": 0, "uri": "https://courses.cs.washington.edu/courses/csed516/", "info": ""}
+{"filename": "software-eng.md", "lineno": 118, "status": "working", "code": 0, "uri": "https://geohackweek.github.io/GoogleEarthEngine/", "info": ""}
+{"filename": "software-eng.md", "lineno": 112, "status": "working", "code": 0, "uri": "https://geohackweek.github.io/Introductory/", "info": ""}
+{"filename": "software-eng.md", "lineno": 114, "status": "working", "code": 0, "uri": "https://geohackweek.github.io/vector/", "info": ""}
+{"filename": "overview.md", "lineno": 10, "status": "working", "code": 0, "uri": "https://escience.washington.edu/office-hours/", "info": ""}
+{"filename": "software-eng.md", "lineno": 113, "status": "working", "code": 0, "uri": "https://github.com/geohackweek/ghw2017/wiki/Running-Jupyter-Notebooks-Locally", "info": ""}
+{"filename": "software-eng.md", "lineno": 111, "status": "working", "code": 0, "uri": "https://github.com/geohackweek/tutorial_contents", "info": ""}
+{"filename": "software-eng.md", "lineno": 124, "status": "working", "code": 0, "uri": "https://github.com/geohackweek/tutorial_contents/blob/master/nDarrays/notebooks/ndarrays_intro.ipynb", "info": ""}
+{"filename": "software-eng.md", "lineno": 120, "status": "working", "code": 0, "uri": "https://github.com/geohackweek/tutorial_contents/tree/master/visualization/notebooks", "info": ""}
+{"filename": "datasci.md", "lineno": 37, "status": "working", "code": 0, "uri": "https://github.com/imagexd/2017-tutorials", "info": ""}
+{"filename": "software-eng.md", "lineno": 42, "status": "working", "code": 0, "uri": "https://github.com/invertdna/Rcourse_SMEA_Autumn2018", "info": ""}
+{"filename": "software-eng.md", "lineno": 5, "status": "working", "code": 0, "uri": "https://github.com/jakevdp/PythonDataScienceHandbook", "info": ""}
+{"filename": "datasci.md", "lineno": 28, "status": "working", "code": 0, "uri": "https://github.com/neurohackweek/visualization-in-python/blob/master/visualization-in-python.ipynb", "info": ""}
+{"filename": "overview.md", "lineno": 14, "status": "redirected", "code": 302, "uri": "https://github.com/uwescience/Online-Educational-Resources/issues/new", "info": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fuwescience%2FOnline-Educational-Resources%2Fissues%2Fnew"}
+{"filename": "software-eng.md", "lineno": 73, "status": "working", "code": 0, "uri": "https://github.com/uwescience/git-intermediate/blob/master/instructor-notes.md", "info": ""}
+{"filename": "overview.md", "lineno": 10, "status": "working", "code": 0, "uri": "https://guidebook.hackweek.io/mission.html", "info": ""}
+{"filename": "software-eng.md", "lineno": 7, "status": "broken", "code": 0, "uri": "https://merely-useful.github.io/still-magic/en/", "info": "404 Client Error: Not Found for url: https://merely-useful.tech/still-magic/en/"}
+{"filename": "software-eng.md", "lineno": 93, "status": "working", "code": 0, "uri": "https://javascript.info/intro", "info": ""}
+{"filename": "datasci.md", "lineno": 26, "status": "working", "code": 0, "uri": "https://neurohackademy.github.io/high-performance-python", "info": ""}
+{"filename": "datasci.md", "lineno": 25, "status": "working", "code": 0, "uri": "https://neurohackademy.org/course_type/lectures/", "info": ""}
+{"filename": "datasci.md", "lineno": 30, "status": "working", "code": 0, "uri": "https://neurohackweek.github.io/docker-for-scientists/", "info": ""}
+{"filename": "datasci.md", "lineno": 31, "status": "working", "code": 0, "uri": "https://neurohackweek.github.io/image-processing/", "info": ""}
+{"filename": "software-eng.md", "lineno": 84, "status": "working", "code": 0, "uri": "https://courses.cs.washington.edu/courses/cse414/", "info": ""}
+{"filename": "software-eng.md", "lineno": 4, "status": "working", "code": 0, "uri": "https://software-carpentry.org/lessons/", "info": ""}
+{"filename": "software-eng.md", "lineno": 23, "status": "working", "code": 0, "uri": "https://thepythonguru.com/", "info": ""}
