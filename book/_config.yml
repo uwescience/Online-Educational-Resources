@@ -1,0 +1,42 @@
+# Book settings
+# Learn more at https://jupyterbook.org/customize/config.html
+
+title: "The eScience Institute: Online Learning Resources"
+author: The eScience Institute
+logo: logo_short.png
+
+# Force re-execution of notebooks on each build.
+# See https://jupyterbook.org/content/execute.html
+execute:
+  execute_notebooks: force
+
+# Define the name of the latex output file for PDF builds
+latex:
+  latex_documents:
+    targetname: book.tex
+
+# Information about where the book exists on the web
+repository:
+  url: https://github.com/uwescience/Online-Educational-Resources
+  path_to_book: docs  # Optional path to your book, relative to the repository root
+  branch: master  # Which branch of the repository should be used when creating links (optional)
+
+# Add GitHub buttons to your book
+# See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
+html:
+  favicon: logo_short.png
+  use_issues_button: true
+  use_repository_button: true
+
+parse:
+  myst_substitutions:
+    Beginner: <img class="level-shield level-beginner" src="https://img.shields.io/badge/-Beginner-648FFF" alt="Beginner">
+    Intermediate: <img class="level-shield level-intermediate" src="https://img.shields.io/badge/-Intermediate-DC267F" alt="Intermediate">
+    Advanced: <img class="level-shield level-advanced" src="https://img.shields.io/badge/-Advanced-FFB000" alt="Advanced">
+    FilterBox: |
+      <div style="border: #68b1ff 1px solid; border-radius: 0.5em; padding: 0.5em; display: inline;">Filter by experience level:
+      <a href="#" onclick="showOnly('level-beginner')"><img src="https://img.shields.io/badge/-Beginner-648FFF" alt="Beginner"></a>
+      <a href="#" onclick="showOnly('level-intermediate')"><img src="https://img.shields.io/badge/-Intermediate-DC267F" alt="Intermediate"></a>
+      <a href="#" onclick="showOnly('level-advanced')"><img src="https://img.shields.io/badge/-Advanced-FFB000" alt="Advanced"></a>
+      <a href="#" onclick="showOnly()"><img src="https://img.shields.io/badge/-No%20Filter-grey" alt="No Filter"></a>
+      </div>
